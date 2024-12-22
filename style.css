@@ -1,0 +1,47 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    padding: 0 7rem;
+}
+
+body{
+    font-size: 1.8rem;
+}
+
+
+header{
+    background-color: #fff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+justify-content: space-between;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+
+.hero{
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.categories{
+    text-align: center;
+}
