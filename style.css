@@ -6,18 +6,21 @@
 
 html{
     font-size: 62.5%;
-    padding: 0 7rem;
+    padding: 0 15.3rem;
 }
 
 body{
     font-size: 1.8rem;
+    font-family: "Inter", sans-serif;
+    background-color: #f4f4f4;
+
 }
 
 
 header{
-    background-color: #fff;
+    background-color: #f4f4f4;
     color: white;
-    padding: 10px;
+    padding: 6.5rem 0 3.8rem 0 ;
     text-align: center;
     display: flex;
 justify-content: space-between;
@@ -31,15 +34,70 @@ nav ul{
     gap: 10px;
 }
 
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+    border-radius: 5px;
+}
 
+.header-items{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-btn{
+    background-color: hsl(126, 80%, 63%);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.cta-btn span{
+    margin-left: 1rem;
+    color: #fff;
+}
 
 .hero{
     background-color: #f4f4f4;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
     display: flex;
     gap: 10px;
     flex-direction: row;
+}
+
+.hero-text{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-text h1{
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 8rem;
+}
+
+.hero-text p{
+    font-size: 2.6rem;
+    color:#4A4A4A;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.hero-text span{
+    color: hsl(126, 80%, 63%);
+}
+
+.hero-cta{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
 .categories{

@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>FOODI</title>
 </head>
@@ -13,26 +22,32 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#">Menu <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#">Services <i class="fa-solid fa-chevron-down"></i></a></li>
                 <li><a href="#">Offers</a></li>
             </ul>
         </nav>
-        <div class="heaer-items">
-<input type="search" name="search" id="search" placeholder="Search">
-            <a href="#">Cart</a>
+
+        <div class="header-items">
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></i></a>
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="#">
+                <button class="cta-btn"><i class="fa-solid fa-phone"></i> <span>Contact</span></button>
+            </a>
         </div>
     </header>
     <main>
         <section class="hero">
+        <div class="hero-content">
             <div class="hero-text">
-                <h1>Dive into Delights  Of Delectable Food</h1>
+                <h1>Dive into delights of delectable <span>Food</span></h1>
                 <p>Where each plate weaves a story of culinary mastery and passionate craftmanship</p>
-<div>
-    <a href="#">Order Now</a>
-    <a href="#">Watch video</a>
-</div>
             </div>
+            <div class="hero-cta">
+                <a href="#"><button>Order now</button></a>
+                <a href="#"><span>Watch video</span> <i class="fa-regular fa-circle-play"></i></a>
+            </div>
+        </div>
 
             <div class="hero-image-container">
                 <img src="./img/hero.png" class="hero-image" alt="hero" width="700">
