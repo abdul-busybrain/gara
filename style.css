@@ -51,9 +51,9 @@ nav ul li a{
 .cta-btn{
     background-color: hsl(126, 80%, 63%);
     padding: 1rem 2rem;
+    outline: none;
     border-radius: 2rem;
     text-decoration: none;
-    color: black;
 }
 
 .cta-btn span{
@@ -63,11 +63,14 @@ nav ul li a{
 
 .hero{
     background-color: #f4f4f4;
-    /* padding: 20px; */
-    text-align: center;
     display: flex;
     gap: 10px;
-    flex-direction: row;
+}
+
+.hero-text-cta{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .hero-text{
@@ -90,14 +93,36 @@ nav ul li a{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 .hero-text span{
     color: hsl(126, 80%, 63%);
 }
 
 .hero-cta{
     display: flex;
-    gap: 10px;
-    justify-content: center;
+    gap: 3.5rem;
+    align-items: center;
+}
+
+.hero-cta button{
+    background-color: hsl(126, 80%, 63%);
+    font-size: 2.6rem;
+    color: white;
+    padding: 1.5rem 3rem;
+    border-radius: 4rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-cta a{
+    text-decoration: none;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.hero-cta span{
+    padding-right: 5px;
 }
 
 .categories{
