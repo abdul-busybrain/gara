@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+a,
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 html {
   font-size: 62.5%;
   padding: 0 15.3rem;
@@ -70,7 +76,7 @@ nav ul li a {
   background-color: #f4f4f4;
   display: flex;
   gap: 10px;
-  padding-bottom: 3.8rem;
+  padding-bottom: 20rem;
 }
 
 .hero-text-cta {
@@ -134,17 +140,17 @@ nav ul li a {
 
 .categories-section {
   text-align: center;
-  padding-bottom: 10rem;
+  padding-bottom: 20rem;
 }
 
-.categories-section .fav {
+.section-title {
   font-size: 2rem;
   color: #ff6868;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.categories-section h2 {
+.section-subtitle {
   font-size: 6rem;
   font-weight: bold;
 }
@@ -162,7 +168,6 @@ nav ul li a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
   border: 2px solid transparent;
   border-radius: 3rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -209,8 +214,19 @@ nav ul li a {
   font-size: 2rem;
 }
 
+/* SECTION SPECIAL */
 .special-items {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+.special-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 3rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
 }
